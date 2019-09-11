@@ -187,7 +187,7 @@ if ($this->uri->segment(1,0)=='pengumuman' and $this->uri->segment(2,0)==null) {
                     <br>
                     <br>
                     <br>
-                    <h1>AAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
+                    <h1><?php echo $row->judul; ?></h1>
 
 
                     <p class="rs post-by">
