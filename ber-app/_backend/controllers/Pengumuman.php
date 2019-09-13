@@ -142,7 +142,7 @@ function a_simpan()
 			$upload_dir = '../foto_pengumuman/'.$pathi.'/';
 			/* e: property gambar */   
 	 
-			if (!empty($lokasi_file)){ 
+			if (!empty($lokasi_file)){
 			if ($tipe_file == "image/jpeg"){
 			/* s: property gambar */
 			RmkDir($upload_dir, $mode = 0777); 
